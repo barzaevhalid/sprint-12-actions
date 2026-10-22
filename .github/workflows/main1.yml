@@ -7,6 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Build
+        run: go build -v ./...
+
       - name: Run tests
         run: GOOS=linux GOARCH=amd64 go test
 
