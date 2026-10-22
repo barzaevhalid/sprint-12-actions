@@ -1,4 +1,4 @@
-name: sprint12
+name: depyloy
 on: push
 jobs:
   test:
